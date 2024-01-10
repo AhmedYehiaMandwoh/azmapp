@@ -1,24 +1,24 @@
-# vue3-firebase
+# vue.js&firebase by AhmedYehia
 
 ## Project setup
-```
-yarn install
-```
+
+npm install
+if error in any package please run (npm install --legacy-peer-deps)
 
 ### Compiles and hot-reloads for development
-```
-yarn serve
-```
+
+npm run serve
+
+### If node error please add this command into terminal
+
+export NODE_OPTIONS=--openssl-legacy-provider
+
 
 ### Compiles and minifies for production
-```
-yarn build
-```
+
+npm run build
+
 
 ### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+npm run lint
